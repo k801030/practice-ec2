@@ -8,5 +8,13 @@
     <artifactId>rivendell-practice-ec2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.0.M1</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
